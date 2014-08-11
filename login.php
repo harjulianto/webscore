@@ -12,24 +12,12 @@ if (!empty($_SESSION['user_team'])) {
 
 <div class="login-container">
 	
-	<div class="login-header login-caret">
-		
-		<div class="login-content">
-			
-			<a href="index.html" class="logo">
+	<div class="login-header login-caret">	
+			<center>
+			<a href="index.php" class="logo">
 				<img src="assets/images/logo@2x.png" width="120" alt="" />
 			</a>
-			<!-- progress bar indicator -->
-			<div class="login-progressbar-indicator">
-				<h3>43%</h3>
-				<span>logging in...</span>
-			</div>
-		</div>
-		
-	</div>
-	
-	<div class="login-progressbar">
-		<div></div>
+			</center>
 	</div>
 	
 	<div class="login-form">

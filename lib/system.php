@@ -20,86 +20,129 @@
                             
               <?php 
                 break;
-                case 'user':
-                  if(!file_exists("pages/user.php")) 
+                case '0x61/0x64/0x6d/0x69/0x6f':
+                  if(!file_exists("pages/adm-user.php")) 
                     die ("Halaman tidak tersedia");
               ?>
-                <?php include "pages/user.php" ?>
+                <?php include "pages/adm-user.php" ?>
             
               <?php 
                 break;
-                case 'user-edit':
-                  if(!file_exists("pages/user-edit.php")) 
+                case '0x61/0x64/0x6d/0x70/0x6f':
+                  if(!file_exists("pages/adm-user-add.php")) 
                     die ("Halaman tidak tersedia");
               ?>
-                <?php include "pages/user-edit.php" ?>
+                <?php include "pages/adm-user-add.php" ?>
             
               <?php 
                 break;
-                case 'set-pj':
-                  if(!file_exists("pages/penanggungjawab.php")) 
+                case '0x61/0x64/0x6d/0x71/0x6f':
+                  if(!file_exists("pages/adm-user-edit.php")) 
                     die ("Halaman tidak tersedia");
               ?>
-                <?php include "pages/penanggungjawab.php" ?>
+                <?php include "pages/adm-user-edit.php" ?>
             
               <?php 
                 break;
-                case 'pj-edit' :
-                  if(!file_exists("pages/pj-edit.php")) 
+                case '0x61/0x64/0x6d/0x71/0x6g' :
+                  if(!file_exists("pages/peserta-add.php")) 
                     die ("Halaman tidak tersedia");
               ?>
                
-                <?php include "pages/pj-edit.php" ?>
+                <?php include "pages/peserta-add.php" ?>
                 
               <?php 
                 break;
 
                 
-                case 'set-konsul':
-                  if(!file_exists("pages/konsultasi.php")) 
+                case '0x61/0x64/0x6d/0x71/0x6h':
+                  if(!file_exists("pages/peserta.php")) 
                     die ("Halaman tidak tersedia");
               ?>
-                <?php include "pages/konsultasi.php" ?>
+                <?php include "pages/peserta.php" ?>
             
               <?php 
                 break;
-                case 'konsul-edit':
-                  if(!file_exists("pages/konsul-edit.php")) 
+                case '0x61/0x64/0x6d/0x72/0x6h':
+                  if(!file_exists("pages/peserta-view.php")) 
                     die ("Halaman tidak tersedia");
               ?>
-                <?php include "pages/konsul-edit.php" ?>
+                <?php include "pages/peserta-view.php" ?>
                             
               <?php 
                 break;
-                case 'data':
-                  if(!file_exists("pages/data.php")) 
+                case '0x61/0x64/0x6d/0x73/0x6h':
+                  if(!file_exists("pages/peserta-edit.php")) 
                     die ("Halaman tidak tersedia");
               ?>
-                <?php include "pages/data.php" ?>
+                <?php include "pages/peserta-edit.php" ?>
                             
               <?php 
                 break;
-                case 'reg':
-                  if(!file_exists("pages/registrasi.php")) 
+                case '0x61/0x64/0x6e/0x73/0x6h':
+                  if(!file_exists("pages/adm-rank-all.php")) 
                     die ("Halaman tidak tersedia");
               ?>
-                <?php include "pages/registrasi.php" ?>
+                <?php include "pages/adm-rank-all.php" ?>
                             
               <?php 
                 break;
-                case 'view':
-                  if(!file_exists("pages/view.php")) 
+                case '0x61/0x64/0x6e/0x73/0x6a':
+                  if(!file_exists("pages/score-forensic.php")) 
                     die ("Halaman tidak tersedia");
               ?>
-                <?php include "pages/view.php" ?>
+                <?php include "pages/score-forensic.php" ?>
                             
               <?php 
                 break;
-                case 'laporan':
-                  if(!file_exists("pages/laporan.php")) 
+                case '0x61/0x64/0x6e/0x73/0x6b':
+                  if(!file_exists("pages/score-ctf.php")) 
                     die ("Halaman tidak tersedia");
               ?>
-                <?php include "pages/laporan.php" ?>
+                <?php include "pages/score-ctf.php" ?>
+
+
+              <?php 
+                break;
+                case '0x61/0x64/0x6e/0x73/0x6c':
+                  if(!file_exists("pages/lap-forensic.php")) 
+                    die ("Halaman tidak tersedia");
+              ?>
+                <?php include "pages/lap-forensic.php" ?>
+
+              <?php 
+                break;
+                case '0x61/0x64/0x6e/0x73/0x6d':
+                  if(!file_exists("pages/lap-forensic-add.php")) 
+                    die ("Halaman tidak tersedia");
+              ?>
+                <?php include "pages/lap-forensic-add.php" ?>
+
+              <?php 
+                break;
+                case '0x61/0x64/0x6e/0x73/0x6e':
+                  if(!file_exists("pages/lap-ctf.php")) 
+                    die ("Halaman tidak tersedia");
+              ?>
+                <?php include "pages/lap-ctf.php" ?>
+
+               <?php 
+                break;
+                case '0x61/0x64/0x6e/0x73/0x6f':
+                  if(!file_exists("pages/lap-ctf-add.php")) 
+                    die ("Halaman tidak tersedia");
+              ?>
+                <?php include "pages/lap-ctf-add.php" ?>
+
+                <?php 
+                break;
+                case '0x61/0x64/0x6e/0x73/0x6g':
+                  if(!file_exists("pages/lap-total.php")) 
+                    die ("Halaman tidak tersedia");
+              ?>
+                <?php include "pages/lap-total.php" ?>
+
+
                             
               <?php 
                 break;

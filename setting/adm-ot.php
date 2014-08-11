@@ -40,6 +40,7 @@ if (mysql_num_rows($q) == 1) {
 	$_SESSION['username'] = $r['username'];
 	$_SESSION['password'] = $r['password'];
 	$_SESSION['nama'] = $r['nama'];
+	$_SESSION['status'] = $r['status'];
 
 	
 	//redirect ke halaman index

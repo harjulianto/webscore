@@ -36,22 +36,104 @@
 				
 			</li>
 			<li>
-				<a href="#">
+				<a href="on.php?0x=0x61/0x64/0x6d/0x71/0x6h">
 					<i class="entypo-doc-text"></i>
 					<span>Peserta</span>
 				</a>
 				<ul>
 					<li>
-						<a href="#">
+						<a href="on.php?0x=0x61/0x64/0x6d/0x71/0x6g">
 							<span>Tambah Peserta</span>
 						</a>
 					</li>
 					<li>
-						<a href="#">
+						<a href="on.php?0x=0x61/0x64/0x6d/0x71/0x6h">
 							<span>Lihat Peserta</span>
+						</a>
+						<ul>
+							<li>
+								<a href="on.php?0x=0x61/0x64/0x6d/0x71/0x6h&kategori=umum">
+									<span>Umum</span>
+								</a>
+							</li>
+							<li>
+								<a href="on.php?0x=0x61/0x64/0x6d/0x71/0x6h&kategori=mahasiswa">
+									<span>Mahasiswa</span>
+								</a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+			
+			<li>
+				<a href="#">
+					<i class="entypo-keyboard"></i>
+					<span>Score</span>
+				</a>
+				<ul>
+					<li>
+						<a href="on.php?0x=0x61/0x64/0x6e/0x73/0x6g">
+							<span>Total</span>
+						</a>
+					</li>
+					<li>
+						<a href="on.php?0x=0x61/0x64/0x6e/0x73/0x6a">
+							<span>Forensic</span>
+						</a>
+					</li>
+					<li>
+						<a href="on.php?0x=0x61/0x64/0x6e/0x73/0x6b">
+							<span>CTF</span>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<span>Laporan</span>
+						</a>
+						<ul>
+							<li>
+								<a href="on.php?0x=0x61/0x64/0x6e/0x73/0x6c">
+									<span>Forensic</span>
+								</a>
+							</li>
+							<li>
+								<a href="on.php?0x=0x61/0x64/0x6e/0x73/0x6e">
+									<span>CTF</span>
+								</a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+			<li>
+				<a href="#">
+					<i class="entypo-flag"></i>
+					<span>Rank</span>
+				</a>
+				<ul>
+					<li>
+						<a href="on.php?0x=0x61/0x64/0x6e/0x73/0x6h">
+							<span>Rank Keseluruhan</span>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<span>Rank Forensic</span>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<span>Rank CTF</span>
 						</a>
 					</li>
 				</ul>
+			</li>
+			<li>
+				<a href="on.php?0x=0x61/0x64/0x6d/0x69/0x6f">
+					<i class="entypo-users"></i>
+					<span>User</span>
+				</a>
 			</li>
 			<li>
 				<a href="u#">
@@ -83,12 +165,6 @@
 					</ul>
 					</li>
 				</ul>
-			</li>
-			<li>
-				<a href="#">
-					<i class="entypo-users"></i>
-					<span>User</span>
-				</a>
 			</li>
 			<li>
 				<a href="logout.php">

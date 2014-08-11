@@ -25,6 +25,13 @@
 						<span>Tools</span>
 					</a>
 				</li>
+
+				<li>
+					<a href="#">
+						<i class="entypo-upload"></i>
+						<span>Upload Laporan</span>
+					</a>
+				</li>
 			</ul>
 						
 			
@@ -33,7 +40,7 @@
 				<!-- raw links -->
 				<li class="dropdown">
 										<li>
-						<a href="#">Welcome <? echo $_SESSION['nama_team']; ?></a>
+						<a href="#">Welcome <?php echo $_SESSION['nama_team']; ?></a>
 					</li>
 									</li>
 				
